@@ -1,0 +1,23 @@
+{
+  "name": "seattlecoupletherapy",
+  "version": "0.1.0",
+  "description": "website for seattlecoupletherapy",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build ./client/index.html",
+    "watch": "parcel ./client/index.html -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskalandunas/seattlecoupletherapy.git"
+  },
+  "author": "Mike Skalandunas <mskalandunas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mskalandunas/seattlecoupletherapy/issues"
+  },
+  "homepage": "https://github.com/mskalandunas/seattlecoupletherapy#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  }
+}
